@@ -1,0 +1,247 @@
+.bgimg{
+    width: 100%;
+    height: 100%;
+    opacity: 60%;
+}
+.a{
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top: 17%;
+    left: 9%;
+}
+.b{
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    top: 15%;
+    left: 22%;
+}
+.c{
+    width: 240px;
+    height: 240px;
+    position: absolute;
+    top: 10%;
+    left: 45%;  
+}
+
+.d{
+    width: 240px;
+    height: 240px;
+    position: absolute;
+    top: 37%;
+    left: 45%;  
+}
+
+.e{
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top: 10%;
+    left: 74%;  
+}
+
+.f{
+    width: 240px;
+    height: 180px;
+    position: absolute;
+    top: 35%;
+    left: 72%;  
+}
+
+.g{
+    width: 280px;
+    height: 180px;
+    position: absolute;
+    top: 44%;
+    left: 70%;  
+}
+
+.h{
+    width: 200px;
+    height: 180px;
+    position: absolute;
+    top: 60%;
+    left: 9%;  
+}
+
+.i{
+    width: 220px;
+    height: 180px;
+    position: absolute;
+    top: 60%;
+    left: 23%;  
+}
+
+.j{
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top: 60%;
+    left: 40%;  
+}
+
+.k{
+    width: 120px;
+    height: 180px;
+    position: absolute;
+    top: 56%;
+    left: 53%;  
+}
+
+.l{
+    width: 240px;
+    height: 180px;
+    position: absolute;
+    top: 64%;
+    left: 70%;  
+}
+
+.m{
+    width: 240px;
+    height: 180px;
+    position: absolute;
+    top: 83%;
+    left: 72%;  
+}
+
+.line1{
+    position:absolute;
+    top: 1%;
+    left: 4%;
+    stroke-dasharray: 711;
+    stroke-dashoffset: 711;
+    animation: dash 5s linear alternate infinite;
+}
+
+@keyframes dash {
+    0% {
+        stroke-dashoffset: 711; 
+       
+    }
+    
+
+
+
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+.line2{
+    position:absolute;
+    top: 1%;
+    left: 5%;
+   
+}
+
+.date{
+    position: absolute;
+    top: 1%;
+    left: 1%;
+}
+
+.daterotate{
+    position: absolute;
+    top: 92%;
+    left: 55%;
+    rotate: 90deg;
+}
+
+.footright1{
+width: 50px;
+height: 50px;
+position: absolute;
+top: 55%;
+left: 10%;
+-webkit-animation: right1 2s 
+}
+
+@-webkit-keyframes right1{
+     
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+    }
+
+.footleft1{
+width: 50px;
+height: 50px;
+position: absolute;
+top: 56%;
+left: 13%;
+-webkit-animation: left1 2s ;
+animation-delay: 2s;
+}
+@-webkit-keyframes left1{
+     
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+
+.footright2{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 52%;
+    left: 15%;
+    -webkit-animation: right2 2s ;
+animation-delay: 4s;
+    }
+    @-webkit-keyframes right2{
+     
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+    }
+    
+.footleft2{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 54%;
+    left: 18%;
+    -webkit-animation: left2 2s ;
+    animation-delay: 6s;
+    
+    }
+    @-webkit-keyframes left2{
+     
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+    }
+
+    .footright3{
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        top: 49%;
+        left: 20%;
+        -webkit-animation: right3 2s ;
+    animation-delay: 8s;
+        }
+
+        @-webkit-keyframes right3{
+     
+            from {
+                opacity:0;
+            }
+            to {
+                opacity:1;
+            }
+        }
